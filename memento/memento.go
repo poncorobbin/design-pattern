@@ -76,4 +76,7 @@ func main() {
 
 	c.cmdRedo() // snapshot 2
 	fmt.Println(editor.text)
+
+	c.cmdRedo() // snapshot 2
+	fmt.Println(editor.text)
 }
